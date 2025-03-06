@@ -1,0 +1,499 @@
+@media only screen and (max-width:1199px) {
+    .header3 .right-header {
+        max-width: 75%
+    }
+    .right-header {
+        float: right
+    }
+    .stop-wordy {
+        max-width: 65%
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #translation-controls {
+        padding: 10px
+    }
+    #menu-item-24683 {
+        position: absolute;
+        bottom: 0
+    }
+    #menu-item-7791 {
+        border-bottom: 1px solid #c7c6c6;
+        margin-bottom: 10px
+    }
+    #menu-item-24683 img {
+        width: 24px
+    }
+    #menu-item-28186 {
+        position: absolute;
+        bottom: 0
+    }
+    #menu-item-9658 {
+        border-bottom: 1px solid #c7c6c6;
+        margin-bottom: 10px
+    }
+    #menu-item-28186 img {
+        width: 24px
+    }
+    .main-menu .language-switcher,
+    .main-menu .dark-mode-container {
+        display: block;
+        vertical-align: middle;
+        text-align: right;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        right: 100px
+    }
+    .main-menu .dark-mode-container img {
+        width: 47px
+    }
+    .main-menu .language-switcher {
+        margin-right: 10px;
+        padding-top: 32px;
+        padding-bottom: 19px
+    }
+    .right-header {
+        margin-top: -24px;
+        padding-bottom: 0
+    }
+    .main-menu li:hover>.sub-menu {
+        position: relative;
+        overflow: overlay;
+        margin-bottom: 22px
+    }
+    .logo24 {
+        width: 200px !important;
+        height: 45px
+    }
+    .header2 .main-menu ul.sub-menu li,
+    .header3 .main-menu ul.sub-menu li {
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid #ccc;
+        padding: 6px
+    }
+    .header3 .site-brand,
+    .header2 .site-brand {
+        float: none;
+        width: auto
+    }
+    .header2 .main-menu,
+    .header3 .main-menu {
+        margin-top: -3px;
+        margin-right: 0
+    }
+    .mid-header {
+        padding-bottom: 0
+    }
+    .main-menu {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 0;
+        margin-top: 10px
+    }
+    .main-menu ul li {
+        display: block;
+        float: none
+    }
+    .menu-main {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 270px;
+        margin-top: 20px;
+        opacity: 0;
+        visibility: hidden;
+        max-height: max-content;
+        overflow: scroll
+    }
+    .main-menu ul li a {
+        display: block;
+        font-size: 21px !important
+    }
+    .header2 .main-menu ul li a .arrow i,
+    .header3 .main-menu ul li a .arrow i {
+        display: inline-block
+    }
+    .main-menu ul li a .arrow i {
+        vertical-align: middle;
+        margin-right: 0
+    }
+    .main-menu ul.sub-menu,
+    .main-menu ul.sub-menu {
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none
+    }
+    .main-menu.open .menu-main {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 16px;
+        right: -16px;
+        z-index: 999999;
+        border: 1px solid #e3e3e3;
+        box-shadow: #a2b9ed 0px 0px 11px;
+        padding-bottom: 50px
+    }
+    .main-menu .sub-menu {
+        position: static;
+        display: none;
+        opacity: 1;
+        margin-top: 0;
+        visibility: visible;
+        background: rgba(255, 255, 255, .1);
+        width: 100%;
+        padding-top: 0;
+        box-shadow: none;
+        max-height: max-content
+    }
+    .main-menu .sub-menu li a {
+        font-size: 13px;
+        padding-left: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
+    .main-menu .arrow {
+        display: inline-flex
+    }
+    .mobile-menu {
+        display: inline-block
+    }
+    .header2 .mid-header,
+    .header3 .mid-header,
+    .header1 .site-brand {
+        width: 100%;
+        width: calc(100% - 55px)
+    }
+    .header2 .mid-header,
+    .header3 .mid-header {
+        float: left
+    }
+    .site-brand .logo {
+        display: block;
+        max-width: 200px;
+        padding-left: 0;
+        margin: 0 auto
+    }
+    .header3 .site-brand {
+        width: 23%
+    }
+    .grid-item {
+        width: 33.333%
+    }
+    .home .kc_col-sm-3 {
+        width: 50%
+    }
+    .home .kc_col-sm-3:nth-child(2n+1) {
+        clear: left
+    }
+    .main-menu ul li a {
+        font-size: 16px;
+        padding: 15px 10px
+    }
+    .post-desc a {
+        font-size: 20px
+    }
+    .list-cat .list-item {
+        width: 33.333%
+    }
+    .list-cat .list-item a {
+        font-size: 24px
+    }
+    .site-bottom .col-md-4:nth-child(3n+1),
+    .site-bottom .col-md-6:nth-child(2n+1) {
+        clear: none
+    }
+    .site-bottom .col-sm-6:nth-child(2n+1) {
+        clear: both
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .site-header {
+        height: auto !important
+    }
+    .mid-header {
+        padding-bottom: 0
+    }
+    .main-menu {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 0;
+        margin-top: 10px
+    }
+    .main-menu ul li {
+        display: block;
+        float: none
+    }
+    .menu-main {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 270px;
+        margin-top: 20px;
+        opacity: 0;
+        visibility: hidden;
+        max-height: max-content;
+        overflow: scroll
+    }
+    .main-menu ul li a {
+        display: block;
+        font-size: 21px !important
+    }
+    .header2 .main-menu ul li a .arrow i,
+    .header3 .main-menu ul li a .arrow i {
+        display: inline-block
+    }
+    .main-menu ul li a .arrow i {
+        vertical-align: middle;
+        margin-right: 0
+    }
+    .main-menu ul.sub-menu,
+    .main-menu ul.sub-menu {
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        -ms-transition: none
+    }
+    .main-menu.open .menu-main {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 16px;
+        right: -16px;
+        z-index: 999999;
+        border: 1px solid #e3e3e3;
+        box-shadow: #a2b9ed 0px 0px 11px;
+        padding-bottom: 50px
+    }
+    .main-menu .sub-menu {
+        position: static;
+        display: none;
+        opacity: 1;
+        margin-top: 0;
+        visibility: visible;
+        background: rgba(255, 255, 255, .1);
+        width: 100%;
+        padding-top: 0;
+        box-shadow: none;
+        max-height: max-content
+    }
+    .main-menu .sub-menu li a {
+        font-size: 13px;
+        padding-left: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1)
+    }
+    .mobile-menu {
+        display: inline-block
+    }
+    .header2 .mid-header,
+    .header3 .mid-header,
+    .header1 .site-brand {
+        width: 100%;
+        width: calc(100% - 55px)
+    }
+    .header2 .mid-header,
+    .header3 .mid-header {
+        float: left
+    }
+    .site-brand .logo {
+        display: block;
+        max-width: 200px;
+        padding-left: 0;
+        margin: 0 auto
+    }
+    .header3 .right-header,
+    .header-area,
+    .headline,
+    .search-form {
+        display: none
+    }
+    .left-thumb .post-thumb {
+        float: none;
+        width: auto;
+        max-width: 400px;
+        margin-right: 0
+    }
+    .site-footer {
+        text-align: center
+    }
+    .site-footer .socials {
+        padding: 10px 0;
+        text-align: center
+    }
+    .grid-item {
+        width: 50%
+    }
+    .archive .post-thumb img {
+        display: inline-block
+    }
+    .post-thumb {
+        margin-bottom: 20px
+    }
+    .entry-header .page-title {
+        max-width: calc(100% - 56px)
+    }
+    .intro-cat .entry-header .page-title {
+        font-size: 30px;
+        max-width: calc(100% - 56px)
+    }
+    .archive article.post .entry-header .page-title {
+        max-width: 100%
+    }
+    .entry-header .back-to-top,
+    .entry-header .back-to-home {
+        font-size: 0
+    }
+    .intro-text {
+        width: 100%;
+        padding: 5px 10px 0;
+        margin-bottom: -22px
+    }
+    .entry-header .back-to-home i {
+        line-height: 30px
+    }
+    .rating {
+        margin-bottom: 10px
+    }
+    .list-cat .list-item a {
+        font-size: 20px
+    }
+    .header2 .main-menu ul.sub-menu li,
+    .header3 .main-menu ul.sub-menu li {
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid #ccc;
+        padding: 6px
+    }
+    .header3 .site-brand,
+    .header2 .site-brand {
+        float: none;
+        width: auto
+    }
+    .header2 .main-menu,
+    .header3 .main-menu {
+        margin-top: -3px;
+        margin-right: 0
+    }
+    .link-list .site-review {
+        opacity: 1;
+        visibility: visible
+    }
+    .right-header {
+        margin-top: -46px !important;
+        padding-bottom: 16px
+    }
+    .post-ct {
+        margin-top: 40px;
+        padding-top: 10px
+    }
+    .addai-tips {
+        width: 100% !important
+    }
+    .logo24 {
+        width: 200px !important;
+        height: 45px
+    }
+    .not-kc .entry-content .link-list ol li {
+        height: 48px;
+        font-size: 16px !important;
+        border-bottom: 1px solid #efefef;
+        line-height: 39px
+    }
+    .link-list .site-icon {
+        margin-top: 11px
+    }
+    .site-review2 {
+        top: 10px;
+        opacity: .58
+    }
+    .link-sitia {
+        width: 16px;
+        height: 16px
+    }
+    .main-menu li:hover>.sub-menu {
+        position: relative;
+        overflow: overlay
+    }
+    .crp_related.crp-rounded-thumbs {
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 314px
+    }
+    .listor {
+        width: auto
+    }
+    .wp-block-column {
+        padding: 17px;
+        text-align: left
+    }
+    .addia {
+        margin-right: auto;
+        margin-left: auto;
+        width: 250px
+    }
+    .aeration {
+        float: left;
+        display: inline-block;
+        padding: 12px;
+        background: #58626e;
+        height: 115px;
+        color: #fff;
+        margin-bottom: 33px;
+        margin-top: -10px
+    }
+    .share-buttons {
+        top: 11px !important
+    }
+    .post-info {
+        position: relative !important
+    }
+    .link-list {
+        max-height: 544px !important
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .relate-p-thumb a img {
+        max-width: 100%;
+        max-height: none
+    }
+    .list-related-post .col-md-3:nth-child(2n+1) {
+        clear: left
+    }
+    .view-all {
+        font-size: 20px
+    }
+    .add-site-form,
+    div.wpcf7,
+    .page-template-page-add-site .entry-content,
+    .advertisement .entry-content {
+        padding: 10px
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .grid-item {
+        width: 100%
+    }
+    .single .post-title a,
+    .archive .post-title a {
+        font-size: 24px
+    }
+    .single .post-desc {
+        margin-bottom: 15px
+    }
+    .list-cat {
+        padding: 10px
+    }
+    .list-cat .list-item {
+        width: 50%;
+        padding: 10px 5px
+    }
+}
